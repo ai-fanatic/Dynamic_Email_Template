@@ -1,0 +1,6 @@
+function OnSelect()
+      {
+        var selectedOption = document.getElementById("ProcessDate").value;
+        window.external.setResult(selectedOption);
+        return true;
+      } 
